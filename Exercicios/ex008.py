@@ -1,0 +1,11 @@
+nome = str('Calculadora de Medidas')
+print(f'{nome:=^40}')
+
+m = float(input('Distancia em metros: '))
+print(f'{40 * "="}\n[{m / 1000:.3f}]KM')
+print(f'[{m / 100}]HM')
+print(f'[{m / 10}]DAM')
+print(f'[{m}]M')
+print(f'[{m * 10}]CM')
+print(f'[{m * 100}]DM')
+print(f'[{m * 1000}]MM')
