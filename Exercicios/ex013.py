@@ -1,0 +1,6 @@
+s = float(input('Salario: R$'))
+r = float(s*15/100)
+print(f'{"Reajuste-Salário":=^37}')
+print(f'Salário: [{s}]')
+print(f'Salário com Reajuste de 15%: [{s + r:.2f}]')
+print(37 * '=')
