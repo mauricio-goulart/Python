@@ -1,0 +1,7 @@
+n1 = float(input('Digte o valor: R$'))
+dolar = float(5.07)
+euro = float(5.51)
+print(f'{"Câmbio":=^20}')
+print(f'Dólar: $[{n1 / dolar:.2f}]')
+print(f'Euro: €[{n1 / euro:.2f}]')
+print(20 * '=')
