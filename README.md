@@ -1,2 +1,2 @@
 # Hello World !
- <p>Repositório aprendizado em **Python**</p>
+ <p>Repositório aprendizado em Python</p>
