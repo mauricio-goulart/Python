@@ -1,5 +1,6 @@
-nome = str(input('Em que cidade você nasceu: ')).upper().split()
-n = 
+nome = str(input('Em que cidade você nasceu: ')).capitalize()
+n = nome.strip()
 
 
-print(f'{"Santo" in n[0]}')
+
+print(f'{"Santo" in n}')
