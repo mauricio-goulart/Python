@@ -5,5 +5,5 @@ print(f'{"Analise":=^20}')
 
 
 
-print(f'{"Santo" in n}')
+print(f'Seu nome tem [Santo]? {"Santo" in n}')
 print(f'=' * 20)
