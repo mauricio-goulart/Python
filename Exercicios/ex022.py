@@ -7,4 +7,6 @@ print(f'Maiúsculo:[{nome.upper()}]')
 print(f'Minúsculo:[{nome.lower()}]')
 print(f'Total Letras:[{len(nome) - nome.count(" ")}]')
 print(f'Total Primeiro nome:[{len(nm[0])}]')
+#print(f'Total Primeiro nome:[{nome.find(" ")}]')
 print('=' * 20)
+
