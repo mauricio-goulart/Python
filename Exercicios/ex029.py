@@ -4,3 +4,4 @@ if n1 > 80 :
     print(f'Multado! Limite [80]Km. Total a Pagar:[{(n1 - 80) * 7}]')
 else:
     print(f'Excelente! Tenha um ótimo dia!')
+print('=' * 20)
