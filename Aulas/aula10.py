@@ -1,3 +1,6 @@
 idade = int(input('Idade do seu carro: '))
 
-print('Carro novo' if idade <= 5 else 'Carro velho')
+if idade <= 5:
+    print('Carro novo')
+else:
+    print('Carro velho')
