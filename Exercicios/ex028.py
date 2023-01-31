@@ -14,3 +14,4 @@ if h == pc :
     print(f'Parabens!!! Você ganhou eu pensei no {pc}')
 else:
     print(f'Perdeu!!! Você errou eu pensei no {pc}')
+print('=' * 40)
