@@ -4,3 +4,4 @@ if sala > 1200 :
     print(f'Salario reajustado:[R${(sala * 15 / 100) + sala}]')
 else:
     print(f'Salário reajustado:[R${(sala * 15 / 100) + sala}]')
+print('=' * 20)
