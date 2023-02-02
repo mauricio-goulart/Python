@@ -12,3 +12,5 @@ elif n2 > n1 :
 
 else:
     print('[IGUAIS]')
+
+print('-=' * 15)
