@@ -1,18 +1,18 @@
 from random import randint
 itens = ('Pedra' , 'Papel', 'Tesoura')
-computador = itens[randint(0,2)]
+computador = randint(0,2)
 
 print(f'{"JOKENPO":=^20}')
 print('[ 0 ] Pedra')
 print('[ 1 ] Papel')
 print('[ 2 ] Tesoura')
-jogada = int(input('Sua jogada: '))
-jogador = itens[jogada]
-print('-=' * 10)
-print(jogador)
-print(computador)
+jogador = int(input('Sua jogada: '))
 
-if computador == '0': #pc pedra
+print('-=' * 10)
+print(itens[jogador])
+print(itens[computador])
+
+if computador == 0: #pc pedra
     if jogador == 1:
         print('Jogador Ganhou')
     elif jogador == 2:
@@ -22,7 +22,7 @@ if computador == '0': #pc pedra
     else:
         print('JOGADA INVALIDA')
 
-elif computador == '1': #pc papel
+elif computador == 1: #pc papel
     if jogador == 1:
         print('EMPATE')
     elif jogador == 2:
@@ -30,7 +30,7 @@ elif computador == '1': #pc papel
     elif jogador == 0:
         print('Jogador Perdeu')
 
-elif computador == '2':
+elif computador == 2:
     if jogador == 1:
         print('Jogador Perdeu')
     elif jogador == 2:
