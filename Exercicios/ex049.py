@@ -6,7 +6,7 @@ print('-=' * 15)
 
 
 for contador in range(0,11):
-    print(f'{m} x {cont}')
+    print(f'{m} x {cont} = {m*cont}')
     cont = cont + 1
     sleep(0.5)
 print('-=' * 15)
