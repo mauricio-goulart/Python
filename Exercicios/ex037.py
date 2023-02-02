@@ -9,10 +9,10 @@ o = str(input('Opção:')).strip()
 
 
 if o == '1':
-    print(f'{n1} to Hexadecimal:[{hex(n1)}]')
+    print(f'{n1} to Hexadecimal:[{hex(n1)[2:]}]')
 elif o == '2':
-    print(f'{n1} to Binário:[{bin(n1)}]')
+    print(f'{n1} to Binário:[{bin(n1)[2:]}]')
 elif o == '3':
-    print(f'{n1} to Octal:[{oct(n1)}]')
+    print(f'{n1} to Octal:[{oct(n1)[2:0]}]')
 
 print('=' * 20)
