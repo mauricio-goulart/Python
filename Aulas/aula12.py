@@ -1,6 +1,6 @@
 nome = str(input('Digite seu nome: '))
 
-if nome == 'Mauricio' or nome == 'Maria':
+if nome == 'Mauricio' or nome in 'Maria':
     print('Que nome lindo')
 elif nome == 'Carlos' or nome == 'Petry':
     print('Nome bem normal')
