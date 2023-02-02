@@ -10,8 +10,8 @@ if date.today().year - i == 18 :
 elif date.today().year - i < 18 :
     print(f'Idade:[{date.today().year - i}]')
     print(f'Ainda não está na hora')
-    print(f'Falta:[{ 18-(2023 - i )}] Anos')
+    print(f'Falta:[{ 18-(date.today().year - i )}] Anos')
 elif date.today().year - i > 18 :
-    print(f'Você está [{(2023 - i) - 18}] anos atrasado')
+    print(f'Você está [{(date.today().year - i) - 18}] anos atrasado')
 
 print('=-' * 15)
