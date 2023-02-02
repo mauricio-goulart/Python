@@ -9,9 +9,9 @@ print('[ 2 ] Tesoura')
 jogador = int(input('Sua jogada: '))
 
 print('-=' * 10)
-print(itens[jogador])
-print(itens[computador])
-
+print(f'Jogador Jogou:[{itens[jogador]}]')
+print(f'Computador Jogou:[{itens[computador]}]')
+print('-=' * 10)
 if computador == 0: #pc pedra
     if jogador == 1:
         print('Jogador Ganhou')
