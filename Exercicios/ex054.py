@@ -7,6 +7,6 @@ for contador in range(1,8):
 
     else:
         menor = menor + 1
-        print(f'{menor} são maiores de idade')
 
 print(f'{maior} são menores de idade')
+print(f'{menor} são maiores de idade')
