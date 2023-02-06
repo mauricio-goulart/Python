@@ -23,3 +23,7 @@ for contador in range(1,c + 1):
         mulherm = mulherm + 1
 
 media = idade / 4
+print('-=' * 15)
+print(f'Media de idade:[{media}]')
+print(f'Nome homem mais velho:[{nomev}]')
+print(f'Quant. de mulheres menor que 20:[{mulherm}]')
