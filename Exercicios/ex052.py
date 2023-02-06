@@ -14,5 +14,10 @@ for contador in range(1, num + 1):
 print('\n\033[m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 
 if tot > 2:
+    print(f'DIVISEL POR:[{tot}] números')
     print(f'[PRIMO:[NÃO]')
+else:
+    print(f'DIVISIVEL:[1],[{num}]')
+    print(f'PRIMO:[SIM]')
 
+print('-=' * 20)
