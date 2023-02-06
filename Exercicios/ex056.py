@@ -4,7 +4,9 @@ soma = float(0)
 nomev = ''
 maioridadeh = 0
 mulherm = 0
-for contador in range(1,5):
+
+c = int(input('Quantas pessoas: '))
+for contador in range(1,c + 1):
     print(f'----- {contador}º PESSOA -----')
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
