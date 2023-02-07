@@ -4,6 +4,7 @@
    # n =  int(input('Digite um valor: '))
    # r = str(input('Quer continuar: [S/N]')).upper()
 #print('fim')
+
 impar = int(0)
 par = int(0)
 n = 1
