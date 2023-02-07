@@ -1,11 +1,6 @@
-r = 's'
-c = 0
-while r == 's':
-    c = c + 1
-    print(f'---- {c}ºPESSOA ----')
-    sexo = str(input('Sexo:[M/F]')).upper()
-    if sexo != 'M' and sexo != 'F':
-        print('DIGITE UM SEXO VÁLIDO:')
+sexo = str(input('Digite o seu sexo: [M/F]')).upper()
 
+while sexo != 'M' and sexo != 'F':
+    sexo = str(input('Dados Invalidos, Digite um sexo valido: [M/F]')).upper()
 
-    r = str(input('Continuar: [s/n]'))
+print(f'Sexo {sexo} registrado com sucesso!')
