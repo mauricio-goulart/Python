@@ -10,4 +10,7 @@ while not sair:
     print('\t[ 4 ] Novos números')
     print('\t[ 5 ] Sair do programa')
     d = str(input('>>>> Qual a sua opção: ')).strip()
-    
+    if d == 1:
+        print('-=' * 15)
+        print(f'{n1} + {n2} = {n1 + n2}')
+
