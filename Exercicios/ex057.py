@@ -1,3 +1,4 @@
+r = 's'
 
-
-while
+while r == 's':
+    print('hola')
