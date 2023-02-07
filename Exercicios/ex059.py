@@ -10,3 +10,4 @@ while not sair:
     print('\t[ 4 ] Novos números')
     print('\t[ 5 ] Sair do programa')
     d = str(input('>>>> Qual a sua opção: ')).strip()
+    
