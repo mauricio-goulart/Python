@@ -43,3 +43,8 @@ while not sair:
         n1 = int(input('Digite o número: '))
         n2 = int(input('Digite outro número: '))
         print('-=' * 15)
+        sleep(1)
+    elif d == '5':
+        print('-=' * 15)
+        sair = True
+        print('\tAdeus amigo')
