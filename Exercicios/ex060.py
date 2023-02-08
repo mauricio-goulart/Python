@@ -4,4 +4,4 @@ f = 1
 
 print(f'Calculando [{n}]!:')
 while c > 0 :
-    print({c})
+    print({f'{c}')
