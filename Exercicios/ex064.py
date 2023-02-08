@@ -1,4 +1,4 @@
 n = 0
-
-while n != 999:
-    n = int(input('Digite um numero'))
+cond = False
+while not cond:
+    n
