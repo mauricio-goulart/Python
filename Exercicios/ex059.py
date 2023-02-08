@@ -15,14 +15,19 @@ while not sair:
     if d == '1':
         print('-=' * 15)
         print(f'\t[{n1}] + [{n2}] = [{n1 + n2}]')
-        sleep(1)
         print('-=' * 15)
+        sleep(1)
     elif d == '2':
         print('-=' * 15)
         print(f'\t[{n1}] x [{n2}] = [{n1 * n2}]')
-        sleep(1)
         print('-=' * 15)
+        sleep(1)
     elif d == '3':
         if n1 > n2:
             print('-=' * 15)
-            print(f'\tMaior número')
+            print(f'\tMaior número:[{n1}]')
+            print('-=' * 15)
+            sleep(1)
+        else:
+
+
