@@ -1,3 +1,5 @@
+from time import sleep
+
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 sair = False
@@ -13,4 +15,5 @@ while not sair:
     if d == '1':
         print('-=' * 15)
         print(f'{n1} + {n2} = {n1 + n2}')
+        sleep(2)
 
