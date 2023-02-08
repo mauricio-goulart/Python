@@ -2,7 +2,7 @@ import random
 import time
 
 print('\33[35m-=-' * 20)
-print('\33[34mVou pensar em um número de 0 a 5. Tente adivinhar...')
+print('\33[34mVou pensar em um número de 0 a 10. Tente adivinhar...')
 print('\33[35m-=-' * 20)
 
 pc = int(random.randint(0, 10))
@@ -32,4 +32,4 @@ print(f'\033[34mPc:[{pc}]|Vc:[{h}]')
 print(f'Parabéns você ganhou, com [{tot + 1}] vezes')
 print('\033[35m-=' * 30)
 
-
+fechar = input('Digite enter para fechar')
