@@ -48,3 +48,8 @@ while not sair:
         print('-=' * 15)
         sair = True
         print('\tAdeus amigo')
+
+    else:
+        print('-=' * 15)
+        print('Digite uma opção valida')
+        print('-=' * 15)
