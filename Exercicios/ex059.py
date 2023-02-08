@@ -28,6 +28,18 @@ while not sair:
             print(f'\tMaior número:[{n1}]')
             print('-=' * 15)
             sleep(1)
+        elif n1 == n2:
+            print('-=' * 15)
+            print(f'\tSão iguais os números:[{n1}] e [{n2}]')
+            print('-=' * 15)
+            sleep(1)
         else:
-
-
+            print('-=' * 15)
+            print(f'\tMaior número:[{n2}]')
+            print('-=' * 15)
+            sleep(1)
+    elif d == '4':
+        print('-=' * 15)
+        n1 = int(input('Digite o número: '))
+        n2 = int(input('Digite outro número: '))
+        print('-=' * 15)
