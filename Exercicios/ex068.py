@@ -9,4 +9,6 @@ pc = randint(0, 10)
 h = int(input('Digite um valor: '))
 dec = input('Impar ou Par:[I/P]')
 print('=-' * 15)
+conta = (pc + h) % 2
 
+if conta == 0:
