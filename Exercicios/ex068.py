@@ -12,3 +12,8 @@ print('=-' * 15)
 conta = (pc + h) % 2
 
 if conta == 0:
+    conta == str('p')
+else:
+    conta == str('i')
+
+print(conta)
