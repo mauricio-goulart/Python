@@ -6,7 +6,7 @@ while True:
     computador = randint(0,10)
     total = computador + jogador
     tipo = ''
-    while tipo not in 'PI':
+    while tipo == 'P' and tipo == 'I':
         tipo = str(input('Par ou Impar: [P/I]')).strip().upper()
     print(f'Você:[{jogador}]')
     print(f'Computador:[{computador}]')
@@ -26,3 +26,4 @@ while True:
             print('Voce, PERDEU!!')
             break
     print('Vamos jogar novamente')
+print(f'GAME OVER!, VOCE GANHOU {v} VEZES')
