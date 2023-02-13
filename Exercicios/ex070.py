@@ -8,9 +8,9 @@ while True:
     print(f'----- {c}ºPRODUTO -----')
     c = c + 1
     nomep = str(input('Nome: '))
-    precop = str(input('Preço: '))
+    precop = int(input('Preço: '))
     if precop > 1000:
         maiorp = maiorp + 1
-    if menorp < precop:
+    if menorp > precop:
         nomemenor = nomep
-    
+
