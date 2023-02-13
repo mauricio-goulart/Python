@@ -14,4 +14,15 @@ while True:
     if tipo == 'P':
         if total % 2 == 0:
             print('Voce, VENCEU!!')
+            v = v + 1
+        else:
+            print('Voce, PERDEU!!')
+            break
+    elif tipo == 'I':
+        if total % 2 == 1:
+            print('Voce, GANHOU!!')
+            v = v + 1
+        else:
+            print('Voce, PERDEU!!')
+            break
             
