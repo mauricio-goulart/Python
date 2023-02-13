@@ -1,2 +1,4 @@
+c = 1
 while True:
-    print('---- ')
+    print(f'---- {c}ºPessoa ----')
+    c = c + 1
