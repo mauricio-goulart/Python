@@ -9,3 +9,9 @@ while True:
     while sexo not in 'MmFf':
         print('SEXO INVALIDO')
         sexo = str(input('Sexo: [M/F] '))
+    cond = str(input('Quer continuar?: [S/N] '))
+    while cond not in 'SsnN':
+        print('DIGITE CERTO')
+        cond = str(input('Quer continuar?: [S/N] ')).strip().lower()
+    if cond == 'n':
+        break
