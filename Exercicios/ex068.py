@@ -11,3 +11,7 @@ while True:
     print(f'Você:[{jogador}]')
     print(f'Computador:[{computador}]')
     print(f'Total:[{total}]')
+    if tipo == 'P':
+        if total % 2 == 0:
+            print('Voce, VENCEU!!')
+            
