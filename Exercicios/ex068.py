@@ -1,3 +1,5 @@
 from random import randint
-from time import sleep
-v - 0
+
+v = 0
+while True:
+    jogador = int(input('Diga um valor: '))
