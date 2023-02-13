@@ -3,9 +3,14 @@ c = 1
 totp = 0
 maiorp = 0
 nomemenor = ''
+menorp = 0
 while True:
     print(f'----- {c}ºPRODUTO -----')
     c = c + 1
     nomep = str(input('Nome: '))
     precop = str(input('Preço: '))
-    if
+    if precop > 1000:
+        maiorp = maiorp + 1
+    if menorp < precop:
+        nomemenor = nomep
+    
