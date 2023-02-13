@@ -25,4 +25,4 @@ while True:
         else:
             print('Voce, PERDEU!!')
             break
-            
+    print('Vamos jogar novamente')
