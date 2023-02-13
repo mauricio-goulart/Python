@@ -4,6 +4,7 @@ totp = 0
 maiorp = 0
 nomemenor = ''
 menorp = 0
+cond = ''
 while True:
     print(f'----- {c}ºPRODUTO -----')
     c = c + 1
@@ -13,4 +14,7 @@ while True:
         maiorp = maiorp + 1
     if menorp > precop:
         nomemenor = nomep
+    cond = str(input('Quer continuar? [S/N] ')).strip().lower()
+    if cond == 'n':
+        break
 
