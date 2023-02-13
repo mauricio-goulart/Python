@@ -9,7 +9,7 @@ while True:
     print(f'----- {c}ºPRODUTO -----')
     c = c + 1
     nomep = str(input('Nome: '))
-    precop = int(input('Preço: '))
+    precop = float(input('Preço: '))
     if precop > 1000:
         maiorp = maiorp + 1
     if c == 2 :
@@ -27,7 +27,7 @@ while True:
 
 print('-' * 20)
 print(f'Total:[{totp}]')
-print(f'Produto mais barato:[{nomemenor}]')
+print(f'Produto mais barato:[{nomemenor} R${menorp}]')
 print(f'Quantos produtos maiores que R$1000:[{maiorp}]')
 
 
