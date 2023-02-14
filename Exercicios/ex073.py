@@ -1,3 +1,10 @@
 brasileirao = ['Palmeiras','Internacional','Fluminense','Corinthians','Flamengo','Athletico-PR','Atlético-MG','Fortleza','São Paulo','América-MG','Botafogo','Santos','Goiás','Bragantino','Coritiba','Cuiabá','Ceará SC','Atlético-GO','Avaí','Juventude']
 print(f'{"Brasileirão-22":=^30}')
+print(f'Times:{brasileirao}')
+print('-=' * 20)
 print(f'Primeiros 5 colocados:{brasileirao[0:6]}')
+print('-=' * 20)
+print(f'Ultimos 5 colocados:{brasileirao[15:]}')
+print('-=' * 20)
+print(f'Times ordem alfabetica:{sorted(brasileirao)}')
+print('-=' * 20)
