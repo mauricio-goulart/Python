@@ -19,6 +19,7 @@ print('Valores pares: ', end='')
 for n in num:
     if n % 2 == 0:
         print({n}, end='')
+print('-=' * 20)
 
 
 
