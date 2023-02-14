@@ -1,1 +1,1 @@
-brasileirao = ['','','','','','','','','','','',]
+brasileirao = ['Palmeiras','Internacional','Fluminense','Corinthians','Flamengo','Athletico-PR','Atlético-MG','Fortleza','São Paulo','América-MG','Botafogo','Santos','Goiás','Bragantino','Coritiba','Cuiabá','Ceará SC','Atlético-GO','Avaí','Juventude']
