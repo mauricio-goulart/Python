@@ -8,5 +8,13 @@ print('Você digitou os números: ', end='')
 for n in numeros:
     print(f' {n} ',end='')
 
-print(f'\nMaior número:[{max(numeros)}] nas posições')
-print(f'\nMenor número:[{min(numeros)}] nas posições')
+print(f'\nMaior número:[{max(numeros)}] nas posições', end='')
+
+for i, v in enumerate(numeros):
+    if v == max(numeros):
+        print(f' ...{i}', end='')
+print(f'\nMenor número:[{min(numeros)}] nas posições', end='')
+for i, v in enumerate(numeros):
+    if v == min(numeros):
+        print(f' ...{i}', end='')
+print('-=' * 20)
