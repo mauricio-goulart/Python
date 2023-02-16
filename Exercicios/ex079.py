@@ -1,12 +1,17 @@
 numeros = list()
 cond = ''
 while True:
-
-    for n in numeros:
-        numeros.append(int(input('Digite um valor: ')))
-        
+    n = int(input('Digite um valor: '))
+    if n not in numeros:
+        numeros.append(n)
+        print('Número adicionado a lista')
+    else:
+        print('Número duplicado, não adicionado...')
+    print('-=' * 15)
     cond = str(input('Quer continuar: [S/N] '))
+    print('-=' * 15)
     if cond in 'Nn':
-        print('-=' * 15)
         break
-print(numeros)
+print('Números da lista: ', end='')
+for n in numeros:
+    print(f'{n} ', end='')
