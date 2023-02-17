@@ -21,5 +21,12 @@ while True:
     cond = input('Quer continuar: [S/N] ')
     if cond in 'Nn':
         break
+print('-=' * 30)
+print(f'Você cadastrou {len(t)} pessoas. Peso de ', end='')
+print(f'O maior peso foi de {mai}Kg')
+for c in t:
+    if c[1] == mai:
+        print(c[0])
+print(f'O menor peso foi de {men}Kg')
 
 
