@@ -27,6 +27,6 @@ print(f'O maior peso foi de {mai}Kg')
 for c in t:
     if c[1] == mai:
         print(c[0])
-print(f'O menor peso foi de {men}Kg'
+print(f'O menor peso foi de {men}Kg')
 
 
