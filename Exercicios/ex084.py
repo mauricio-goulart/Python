@@ -30,3 +30,4 @@ for c in t:
 print(f'O menor peso foi de {men}Kg')
 
 
+
