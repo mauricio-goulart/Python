@@ -15,5 +15,10 @@ for c in range (1,8):
         toti = toti + 1
 print(f'{"Analisado":=^20}')
 
+num[0].sort()
+num[1].sort()
+
+print(f'Total par: [{totp}]')
+print(f'Total impar: [{toti}]')
 print(f'Valores pares: {num[0]}')
 print(f'Valores Impares: {num[1]}')
