@@ -12,5 +12,7 @@ while True:
     if cond in 'Nn':
         break
 
-print(lista)
+for c in lista[0]:
+    print(n)
+    for
 
