@@ -16,8 +16,7 @@ while True:
 
 print('-=' * 4, 'ANALISADO', '-=' * 4)
 for c in cidade:
-    for x in c:
-        print(f'{x}')
+    print(c)
 
 
 
