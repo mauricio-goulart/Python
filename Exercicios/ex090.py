@@ -13,6 +13,7 @@ while True:
         break
 
 for c in lista[0]:
-    print(n)
-    for
+    print(c)
+    for f lista[1]:
+        print(f)
 
