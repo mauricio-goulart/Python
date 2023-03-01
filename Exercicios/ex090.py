@@ -12,8 +12,6 @@ while True:
     if cond in 'Nn':
         break
 
-for c in lista[0]:
-    print(c)
-    for f lista[1]:
-        print(f)
+for c in range(0, len(lista)):
+    print(lista[c])
 
