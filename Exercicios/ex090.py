@@ -12,6 +12,9 @@ while True:
     if cond in 'Nn':
         break
 
+print('-=' * 4, 'ANALISADO', '-=' * 4)
 for c in range(0, len(lista)):
-    print(lista[c])
+    print(f'{lista[0][c]:^5} {lista[1][c]:^5}')
+
+
 
