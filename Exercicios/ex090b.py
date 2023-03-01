@@ -15,7 +15,7 @@ while True:
         break
 
 print('-=' * 4, 'ANALISADO', '-=' * 4)
-for i,c in enumerate(cidade):
+for c in cidade:
     m = 1
     while m < len(c):
         print(f'{c[m -1]} {c[m]}')
