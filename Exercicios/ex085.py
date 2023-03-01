@@ -11,4 +11,4 @@ for c in range (1,8):
 
 
 print(f'Valores pares:{num[0]}')
-print(f'Valores Impares:{num[1]}'
+print(f'Valores Impares:{num[1]}')
