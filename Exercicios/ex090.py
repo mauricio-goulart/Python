@@ -1,12 +1,14 @@
 alunos = dict()
-talunos = list()
-print('-=' * 5, 'Media','=-' * 5)
-alunos['nome'] = str(input('Nome: '))
-alunos['media'] = float(input(f'Media de {alunos["nome"]}: '))
-print('-=' * 14)
+print('-=' * 20)
+alunos['Nome'] = str(input('Nome: '))
+alunos['Media'] = float(input(f'Media de {alunos["Nome"]}: '))
+if alunos['Media'] >= 7.0:
+    alunos['Situação'] = 'Aprovado'
+elif 5 <= alunos['Media'] < 7:
+    alunos['Situação'] = 'Recuperação'
+else:
+    alunos['Situação'] = 'Reprovado'
+print('-=' * 20)
 for k,v in alunos.items():
     print(f'{k} = {v}')
-if alunos['media'] > 6.5:
-    print('[Aprovado]')
-else:
-    print('[Reprovado]')
+print('-=' * 20)
