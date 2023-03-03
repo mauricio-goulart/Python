@@ -1,12 +1,16 @@
 def maior(*list):
-    maior = 0
+    cont = maior = 0
     print('-=' * 20)
     print('Analisando os valores passados ...')
     for n in list:
         print(f'{n}', end=' ')
     print(f'Foram informados {len(list)} números')
-    if n > maior:
+    if cont == 0:
         maior = n
+    else:
+        if n > maior:
+            maior = n
+    cont = cont + 1
     print(f'Maior número = [{maior}]')
     print('-=' * 20)
 
