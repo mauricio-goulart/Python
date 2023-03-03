@@ -15,10 +15,27 @@ def soma(a,b):
 soma(4,5)
 soma(b = 5, a = 4)
 
-def contador(*num):
 
-    print(f'Recebi os valores {num} e tem {len(num)} numeros')
+def somar(*valores):
+    s = 0
+    for num in valores:
+        s = s + num
+    print(f'Somando  {valores} = {num}')
 
 
-contador(5,3,1,4)
-contador(4,2,1)
+somar(5,6,5,6)
+
+
+
+
+
+def dobrar(list):
+    pos = 0
+    while pos < len(list):
+        list[pos] *= 2
+        pos = pos + 1
+
+
+valores = [2,3,4]
+dobrar(valores)
+print(valores)
