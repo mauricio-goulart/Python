@@ -17,3 +17,12 @@ help(contar)
 contar(1, 10, 2)
 
 
+def somar(a = 0,b = 0, c = 0):
+    s = a + b + c
+    print(s)
+
+
+somar(10,2,5)
+somar(4,7)
+
+
