@@ -20,9 +20,28 @@ contar(1, 10, 2)
 def somar(a = 0,b = 0, c = 0):
     s = a + b + c
     print(s)
+    return s
 
 
-somar(10,2,5)
-somar(4,7)
+r1 = somar(10,2,5)
+r2 = somar(4,7)
+
+print(f'A soma deu {r1} ')
+
+
+def par(n = 0):
+    if n % 2 ==0:
+        return True
+    else:
+        return False
+
+
+n = int(input('Digite um numero: '))
+r = par(n)
+
+if r :
+    print('Par')
+else:
+    print('Impar')
 
 
