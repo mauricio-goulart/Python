@@ -1,4 +1,9 @@
 def notas(*num, sit = False):
+    """
+    :param num: numeros das notas
+    :param sit: mostrar ou nao a situacao
+    :return: retorna a lista
+    """
     alunos = dict()
     alunos['total'] = len(num)
     alunos['maior'] = max(num)
