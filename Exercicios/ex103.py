@@ -1,5 +1,4 @@
 def ficha(jogador = '', gols = 0):
-
     if jogador == '':
         print('Jogador: <desconhecido>')
         print(f'Gols: {gols}')
