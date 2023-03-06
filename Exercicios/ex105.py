@@ -20,8 +20,6 @@ def notas(*num, sit = False):
     return alunos
 
 
-
-
 print('-' * 30)
 n = notas(8, 9, sit= True)
 print(n)
