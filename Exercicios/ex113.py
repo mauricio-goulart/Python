@@ -1,8 +1,13 @@
 def LeiaInt(n):
+    n1 = str(n)
     while True:
         try:
-            n = int(input('Digite um valor: '))
+            if n1.isnumeric():
+                nv = int(n1)
         except:
+            nv = int(input('Digite um numero certo: '))
+        else:
+            break
 
 
 
@@ -11,5 +16,4 @@ def LeiaInt(n):
 
 
 
-
-print(f'Digitou : {inp(n)}')
+print(f'Digitou : {LeiaInt(n)}')
