@@ -5,6 +5,6 @@ import urllib
 try:
     site = urllib.request.urlopen('https://www.youtube.com/')
 except:
-    print('deu ruim')
+    print('Deu ruim')
 else:
     print('Deu bom')
