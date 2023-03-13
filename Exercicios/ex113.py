@@ -1,16 +1,23 @@
 def LeiaInt(msg):
     while True:
         try:
-            n = int(input('Digite um numero:'))
+            n = int(input(msg))
         except:
-            print('Digite um numero certo')
+            print('-=' * 15)
+            print('\033[31mERRO: NUMERO INVALIDO\033[m')
             continue
         else:
             return n
 
 
+
+
+
+
+print('-=' * 15)
 num = LeiaInt('Digite um valor: ')
-print(f'O valor digitado foi {num}')
+print('-=' * 15)
+print(f'\033[32mO valor digitado foi {num}\033[m')
 
 
 
