@@ -1,13 +1,16 @@
-def LeiaInt(n):
-    n1 = str(n)
+def LeiaInt(msg):
     while True:
         try:
-            if n1.isnumeric():
-                nv = int(n1)
+            n = int(input('Digite um numero:'))
         except:
-            nv = int(input('Digite um numero certo: '))
+            print('Digite um numero certo')
+            continue
         else:
-            break
+            return n
+
+
+num = LeiaInt('Digite um valor: ')
+print(f'O valor digitado foi {num}')
 
 
 
@@ -16,4 +19,3 @@ def LeiaInt(n):
 
 
 
-print(f'Digitou : {LeiaInt(n)}')
